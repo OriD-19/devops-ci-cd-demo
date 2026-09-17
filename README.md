@@ -61,3 +61,4 @@ El workflow `.github/workflows/ci.yml` produce tres verificaciones independiente
 - `build`: comprueba que la imagen de contenedor puede construirse.
 
 El pipeline es intencionalmente simple. No utiliza caché, matrices, artifacts, dependencias entre jobs ni mecanismos de despliegue; esas capacidades se incorporan en sesiones posteriores.
+Además, podemos comprobar si funciona el pipeline con algunos cambios simples
